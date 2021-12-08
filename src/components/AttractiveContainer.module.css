@@ -1,0 +1,74 @@
+.attractive_container {
+  height: 400px;
+  background-color: #bcd4cf;
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.text_div {
+  padding-left: 40px;
+  flex-basis: 45%;
+  box-sizing: border-box;
+}
+.main_heading {
+  margin: 50px 0 20px;
+  font-size: 2.8rem;
+  color: rgb(49, 42, 42);
+}
+.main_para {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  color: rgb(49, 42, 42);
+}
+
+.button_wrapper {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+  font-size: 2rem;
+}
+
+.learn_more {
+  height: 2.8rem;
+  width: 6rem;
+  background-color: #000;
+  color: #fff;
+  margin-right: 1.3rem;
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
+}
+
+.learn_more:hover {
+  background-color: #009933;
+}
+
+.create_account_btn {
+  height: 2.8rem;
+  width: 9rem;
+  font-size: 1rem;
+  border: 1px solid #009933;
+  color: #009933;
+  border-radius: 5px;
+  background-color: transparent;
+}
+
+.create_account_btn:hover {
+  background-color: #009933;
+  color: #fff;
+}
+
+.image_div {
+  flex-basis: 55%;
+
+  display: flex;
+  justify-content: center;
+}
+
+.img_div {
+  margin: 40px 0 20px;
+}
+.img {
+  height: 300px;
+}

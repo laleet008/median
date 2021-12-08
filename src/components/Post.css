@@ -1,0 +1,164 @@
+.grid_container {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Latest title--------> */
+.latest_post {
+  height: 700px;
+  width: 73%;
+  /* background-color: rgba(182, 194, 201, 0.137); */
+}
+
+.latest_title {
+  margin: 10px 0 30px;
+  border-bottom: 1px solid rgb(153, 137, 137);
+}
+.latest_title span {
+  display: inline-block;
+  letter-spacing: 0.01em;
+  border-bottom: 1px solid black;
+  padding-bottom: 12px;
+}
+
+/* popular title---------> */
+
+.popular_title {
+  margin: 10px 0 30px;
+  border-bottom: 1px solid rgb(153, 137, 137);
+}
+
+.popular_title span {
+  display: inline-block;
+  letter-spacing: 0.01em;
+  border-bottom: 1px solid black;
+  padding-bottom: 11px;
+}
+
+.popular_post {
+  height: 900px;
+  width: 25%;
+  /* background-color: blue; */
+}
+
+/* =====grid======== */
+
+.row_item {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.column_item {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.second_row {
+  margin-top: 10px;
+}
+/* .row_item > .right_item {
+  margin-left: 15px;
+} */
+
+.first_item {
+  /* background-color: rgba(102, 102, 10, 0.521); */
+  height: 450px;
+}
+.second_item {
+  /* background-color: rgba(7, 7, 87, 0.288); */
+  height: 450px;
+}
+
+/* blog content====> */
+.blog_grid {
+  height: 100%;
+  width: 100%;
+}
+
+.feature_img {
+  height: 100%;
+  width: 100%;
+}
+
+.feature_img img {
+  height: 100px;
+  width: 100px;
+}
+
+.thumbnail {
+  height: 200px;
+  width: 435px;
+}
+
+.profile_img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  margin-top: 15px;
+}
+
+.profile_img_container {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin-top: 10px;
+}
+
+.blog_title {
+  font-size: 1.5rem;
+  margin-top: 0.8rem;
+}
+
+.detail {
+  margin-top: 1.5rem;
+}
+.blog_description {
+  margin-top: 1rem;
+}
+
+/* popular post */
+.popular_posts {
+  padding: 0;
+}
+
+.post_wrapper {
+  display: flex;
+  flex-direction: row;
+  /* gap: 10px; */
+  justify-content: space-between;
+}
+
+.id_wrapper {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+  /* background-color: red; */
+  gap: 10px;
+}
+
+.popular_id {
+  font-size: 2rem;
+  color: rgba(46, 34, 34, 0.329);
+}
+
+.content_wrapper {
+  width: 75%;
+  margin: 0 0 3rem;
+
+  /* background-color: yellow; */
+}
+
+.popular_post_dec {
+  margin-top: 0.5rem;
+  font-weight: 500;
+}
+.popular_post_date {
+  margin-top: 0.5rem;
+  color: rgba(14, 7, 7, 0.685);
+}

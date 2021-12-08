@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Amiri&family=Dancing+Script:wght@600;700&family=Encode+Sans:wght@500&family=Lobster&family=Montserrat:wght@200&display=swap");
+
+.headings {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  letter-spacing: 0.05em;
+  height: 30px;
+  list-style: none;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.home {
+  font-weight: bold !important;
+}
+
+.items {
+  text-decoration: none;
+
+  text-transform: uppercase;
+  font-weight: 500;
+  color: rgb(49, 42, 42);
+  font-family: "Montserrat", sans-serif;
+}
+
+.down_arrow {
+  font-size: 12px;
+  font-weight: 200;
+  padding-left: 10px;
+  color: rgb(128, 119, 119);
+}
